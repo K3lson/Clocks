@@ -176,3 +176,35 @@ body {
         opacity: 0;
     }
 }
+
+@media (max-width: 991px) {
+    .clock {
+        width: 300px;
+        height: 300px;
+    }
+
+    .circle {
+        width: 180px;
+        height: 180px;
+    }
+
+    .circle2 {
+        width: 140px;
+        height: 140px;
+    }
+    .circle3 {
+        width: 90px;
+        height: 90px;
+    }
+    .circle::before {
+        width: 8px;
+        height: 8px;
+    }
+
+    #time {
+        font-size: 1.5em;
+    }
+    #time div {
+        width: 40px;
+    }
+}
